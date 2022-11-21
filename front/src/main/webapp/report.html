@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<style>
+h1
+{
+	background-color:#6495ed;
+}
+p
+{
+	background-color:#e0ffff;
+}
+div
+{
+	background-color:#b0c4de;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="report.html">Report</a></li>
+            <li><a href="pages/workorder.html">Workorder</a></li>
+            <li><a href="damage.html">Damage</a></li>
+        </ul>
+    </nav>
+</header>
+<h1>Report</h1>
+<!--<form name="input" action="html_form_action.php" method="get">-->
+<form>
+<!--    First name: <input type="text" name="firstname"><br>-->
+<!--    Last name: <input type="text" name="lastname"><br>-->
+<!--    Location: <input type="text" name="location"><br>-->
+<!--    Size: <input type="text" name="size"><br>-->
+<!--    Your address: <input type="text" name="address"><br>-->
+<!--    Phone: <input type="text" name="phone"><br>-->
+<!--    <input type="submit" value="Submit">-->
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="location">Location</label>
+    <input type="text" id="location" name="Location" placeholder="Location..">
+
+    <label for="address">Your Address</label>
+    <input type="text" id="address" name="Youraddress" placeholder="Your address..">
+
+    <label for="phone">Phone</label>
+    <input type="text" id="phone" name="Phone" placeholder="Phone..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+    </select>
+
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
